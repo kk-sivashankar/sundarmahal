@@ -16,9 +16,71 @@ html {
 .margin_on_mobi{
     margin: 4% 0 !important;
 }
+.welcome_bg_gradient h1 {
+	font-size: 28px !important;
+	line-height: 2.3rem !important;
 }
-/* `md` applies to small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {  }
+.under_party_area_cont h1 {
+    font-size: 38px !important
+}
+.under_party_area_cont h2 {
+    font-size: 18px !important;
+    line-height: 25px !important;
+}	
+.under_party_area_cont {
+    width: 90% !important;
+}
+.best_banquet_halls_stripe h1 {
+    font-size: 29px !important;
+}
+.best_banquet_halls_stripe p {
+    font-size: 20px !important;
+    line-height: 27px !important;
+}
+.under_party_area_bg_2 {
+    width: 80% !important;
+}
+.services_we_do h4 {
+    font-size: 20px !important;
+}
+.amenities {
+    width: 90% !important;
+	padding: 6% 0% !important;
+}
+
+}
+
+@media (max-width: 768px) {
+.header-section .logo {
+  display: none;
+}
+.slide-content {
+    font-size: 13px;
+}	
+.custom-navbar {
+	background-color: #fff28a;
+	padding: 0px 20px;
+}
+.navbar {
+    width: 100% !important;
+}
+.menu_ovr_lay_cs {
+    margin-top: 0% !important;
+	margin-bottom: 0% !important;
+}
+/*.welcome_bg_gradient h1 {
+        font-size: 40px !important;
+        line-height: 2.5rem !important;
+}*/
+.welcome_bg_gradient h2 {
+    font-size: 21px !important;
+    line-height: 33px !important;
+}
+.party_area_bg h1 {
+    font-size: 20px !important;
+}
+
+}
 
 /* `lg` applies to medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) {  }
@@ -43,25 +105,11 @@ html {
     font-size: 22px !important;
     line-height: 35px !important;
 }
+.welcome_bg_stripe_contentarea_bg {
+    height: 145vh !important;
 }
-/* Hide Logo in Mobile View */
-@media (max-width: 768px) {
-.header-section .logo {
-  display: none;
-}
-.slide-content {
-    font-size: 13px;
-}	
-.custom-navbar {
-	background-color: #fff28a;
-	padding: 0px 20px;
-}
-.navbar {
-    width: 100% !important;
-}
-.menu_ovr_lay_cs {
-    margin-top: 0% !important;
-	margin-bottom: 0% !important;
+.custom-navbar .nav-link {
+    font-size: 15px !important;
 }
 }
 
@@ -95,20 +143,31 @@ html {
 .custom-navbar .nav-link {
 	font-family: "Merienda", Arial, Helvetica, sans-serif;
 	text-decoration: none;
-	color: #fbd300;
+	color: #FF0080;
+	font-weight: 600;
 	font-size: 22px;
 	padding: 8px 15px;
 	transition: all 0.3s;
+	-webkit-text-stroke: 0.1px #FFF;
+    text-shadow: 
+        -0.5px -0.5px 0 #FFF,  
+        0.5px -0.5px 0 #FFF,  
+        -0.5px 0.5px 0 #FFF,  
+        0.5px 0.5px 0 #FFF;
 }
 .custom-navbar .nav-link:hover {
 	background-color: #e72e77;
 	color: #FFF;
 	border-radius: 5px;
+	-webkit-text-stroke:none;
+    text-shadow: none;
 }
 .custom-navbar .active {
 	background-color: #e72e77;
 	color: #FFFFFF !important;
 	border-radius: 5px;
+	-webkit-text-stroke:none;
+    text-shadow: none;
 }
 @media (max-width: 768px) {
 /* Adjusting logo size for mobile */
@@ -121,41 +180,7 @@ html {
 .custom-navbar .navbar-collapse {
 	background-color: #fff28a;
 }
-.welcome_bg_gradient h1 {
-        font-size: 40px !important;
-        line-height: 2.5rem !important;
-}
-.welcome_bg_gradient h2 {
-    font-size: 21px !important;
-    line-height: 33px !important;
-}
-.party_area_bg h1 {
-    font-size: 20px !important;
-}
-.under_party_area_cont h1 {
-    font-size: 38px !important
-}
-.under_party_area_cont h2 {
-    font-size: 18px !important;
-    line-height: 25px !important;
-}	
-.under_party_area_cont {
-    width: 90% !important;
-}
-.best_banquet_halls_stripe h1 {
-    font-size: 29px !important;
-}
-.best_banquet_halls_stripe p {
-    font-size: 20px !important;
-    line-height: 27px !important;
-}
-.under_party_area_bg_2 {
-    width: 80% !important;
-}
-.services_we_do h4 {
-    font-size: 20px !important;
-}
-	
+
 }
 /* Main Menu CSS ENDS */
 
