@@ -13,6 +13,9 @@ html {
     font-size: 21px !important;
     padding: 7% 2%;
 }
+.margin_on_mobi{
+    margin: 4% 0 !important;
+}
 }
 /* `md` applies to small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) {  }
@@ -119,7 +122,8 @@ html {
 	background-color: #fff28a;
 }
 .welcome_bg_gradient h1 {
-    font-size: 25px !important;
+        font-size: 40px !important;
+        line-height: 2.5rem !important;
 }
 .welcome_bg_gradient h2 {
     font-size: 21px !important;
@@ -129,7 +133,7 @@ html {
     font-size: 20px !important;
 }
 .under_party_area_cont h1 {
-    font-size: 26px !important;
+    font-size: 38px !important
 }
 .under_party_area_cont h2 {
     font-size: 18px !important;
@@ -175,13 +179,14 @@ html {
     padding: 3% 3% 0 3%;
     background: linear-gradient(to top, rgba(255, 255, 255, 1) 10%, rgba(255, 0, 0, 0) 50%);
 }
+
 .welcome_bg_gradient h1 {
-	font-family: "Merienda", cursive;
+    font-family: "Merienda", cursive;
+    font-size: 50px;
+    line-height: 63px;
+    color: #ff0080;
     font-weight: 500;
     font-style: normal;
-    font-size: 35px;
-    line-height: 1.2em;
-    color: #ff0080;
 }
 .welcome_bg_gradient h2 {
     padding: 0.5% 0 0.5% 0;
@@ -220,7 +225,7 @@ background-size: cover;
     transform: scale(1.05) rotate(0deg);
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-.welcome_bg_gradient .welcome_bg_stripe_contentarea_bg h1 {
+.welcome_bg_stripe_contentarea_bg h2 {
   margin: 0;
     padding: 0;
     font-family: "Merienda", cursive;
@@ -290,7 +295,7 @@ background-size: cover;
     margin: 0 auto; /* Centers the div horizontally */
   	margin-top: -8%; /* Adds 5% margin from the top */
 	padding: 3% 1%;
-	background-image:url("../images/sundarmahal-pattern-1.jpg");
+	background-image:url("../images/sundarmahal-pattern-2.png");
 	border-radius: 10px;
 	z-index: 9;
     position: relative;
@@ -301,10 +306,10 @@ background-size: cover;
 .under_party_area_cont h1 {
 	margin: 0;
     padding: 0;
-    font-family: "Merienda", cursive;
+    font-family: "Tangerine", cursive;
     font-weight: 600;
     font-style: normal;
-    font-size: 45px;
+    font-size: 76px;
     line-height: 3rem;
     color: #ff0080;
 }
@@ -368,13 +373,15 @@ background-size: cover;
     font-style: italic;
 	
 }
-.under_party_area_bg_2 {
+/*-------------Best Banquet Halls Css Ends-----------------*/
+
+/*-------------Amenities We do Css Starts-----------------*/
+.amenities {
 	width: 75%;
     margin: 0 auto; /* Centers the div horizontally */
   	margin-top: -8%; /* Adds 5% margin from the top */
 	padding: 2% 0%;
-	background-image:url("../images/sundarmahal-pattern-1.jpg");
-	
+	background-image:url("../images/sundarmahal-pattern-2.png");
 	border-radius: 10px;
 	z-index: 9;
     position: relative;
@@ -382,7 +389,8 @@ background-size: cover;
 	align-items: center;
     text-align: center;
 }
-/*-------------Best Banquet Halls Css Ends-----------------*/
+/*-------------Amenities We do Css Ends-----------------*/
+
 /*-------------Services We do Css Starts-----------------*/
 .services_we_do {
   /*background: linear-gradient(to bottom, rgba(255, 230, 97, 1) 0%, rgba(255, 179, 65, 1) 100%);*/
