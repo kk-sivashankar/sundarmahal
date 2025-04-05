@@ -122,7 +122,7 @@ html {
 /*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
 @media (max-width: 1399.98px) { 
 .menu_ovr_lay_cs {
-    margin-bottom: -10% !important;
+    margin-bottom: -10.5% !important;
 }
 .main-menu {
     max-width: 52% !important;
