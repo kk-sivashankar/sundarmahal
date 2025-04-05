@@ -86,12 +86,10 @@ html {
 @media (max-width: 991.98px) {  }
 
 /* `xl` applies to large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { 
-
+@media (max-width: 1290.00px) { 
+.menu_ovr_lay_cs {
+    margin-bottom: -10% !important;
 }
-
-/*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
-@media (max-width: 1399.98px) { 
 .main-menu {
     max-width: 52% !important;
 }
@@ -100,6 +98,10 @@ html {
 }
 .under_banner_sec-content p {
     font-size: 22px !important;
+}
+.welcome_bg_gradient h1 {
+    font-size: 40px !important;
+    line-height: 50px !important;
 }
 .whoiam p {
     font-size: 22px !important;
@@ -111,6 +113,51 @@ html {
 .custom-navbar .nav-link {
     font-size: 15px !important;
 }
+.flex-container .flex-item {
+    width: 113px !important;
+    height: 140px !important;
+}
+}
+
+/*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { 
+.menu_ovr_lay_cs {
+    margin-bottom: -10% !important;
+}
+.main-menu {
+    max-width: 52% !important;
+}
+.under_banner_sec-content h1 {
+    font-size: 40px !important;
+}
+.under_banner_sec-content p {
+    font-size: 22px !important;
+}
+.welcome_bg_stripe_contentarea_bg h2 {
+    font-size: 18px !important;
+}
+.welcome_bg_gradient h1 {
+    font-size: 40px !important;
+    line-height: 50px !important;
+}
+.whoiam p {
+    font-size: 22px !important;
+    line-height: 35px !important;
+}
+.welcome_bg_stripe_contentarea_bg {
+    height: 145vh !important;
+}
+.custom-navbar .nav-link {
+    font-size: 15px !important;
+}
+.under_party_area_cont h1 {
+    font-size: 65px !important;
+}
+.flex-item {
+	width: 123px !important;
+	height: 150px !important;
+}
+	
 }
 
 
@@ -130,8 +177,8 @@ html {
 .custom-navbar {
 	background-color: transparent;
     border-radius: 20px;
-    backdrop-filter: blur(30px);
-	/*border: 1px solid rgba(255, 242, 138, 0.3);*/
+	/*backdrop-filter: blur(30px);*/
+	background: rgba(255, 255, 255, 0.3);
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .custom-navbar .navbar-brand img {
@@ -479,7 +526,7 @@ background-size: cover;
 
 /*-------------Home Page Gallery Css Starts-----------------*/
 .home_pge_gallery{
-	width: 90%;
+	width: 95%;
 	margin: 0 auto; padding: 2% 0 5% 0; align-content: center; align-items: center; text-align: center;
 }
 .home_pge_gallery h1 {
